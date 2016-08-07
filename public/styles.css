@@ -1,0 +1,117 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+body {
+    font-family: 'arial';
+    color: #777;
+}
+
+#chg-balloon-logo-container {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+#chg-balloon-logo-container > img {
+    width: 100%;
+    margin-left: -25px;
+}
+
+#chg-balloon-controls-container {
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    /*text-align: center;*/
+}
+
+#chg-balloon-controls-container > input {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #CCC;
+    padding: 10px;
+    font-size: 14px;
+    width: 270px;
+}
+
+#chg-balloon-controls-container > p {
+    text-align: left;
+    margin: 0;
+    margin-top: 40px;
+    padding-left: 4px;
+    font-size: 18px;
+    max-width: 280px;
+}
+
+#chg-balloon-controls-container > button {
+    border: 1px solid #CCC;
+    padding: 10px 18px;
+    border-radius: 4px;
+    background: none;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #777;
+}
+
+#chg-balloon-controls-container > button:hover {
+    background: #EFEFEF;
+}
+
+#chg-balloon-controls-container > button:focus {
+    outline: none;
+}
+
+#chg-balloon-controls-container > button:active {
+    background: #DDD;
+}
+
+@media (max-width: 480px) {
+    #chg-balloon-controls-container > button {
+        width: 280px;
+        margin-left: 0px;
+    }
+
+    #chg-balloon-controls-container > p {
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+
+#chg-input-success ,#chg-input-invalid{
+
+    display: none;
+}
+
+#chg-username-Suggestion{
+    margin: 10px;
+    align-content: center;
+    display: none;
+}
+#chg-username-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#chg-username-list li {
+    float: left;
+    background-color: #f07d00;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+    border-radius: 10px;
+}
+
+.chg-ballon-validate{
+    display: inline-block;
+    min-width: 12px
+}
+
+.chg-validation-msg{
+    line-height: 1.5;
+    background-color: #f07d00;
+    color: white;
+    border-radius: 15px;
+    display: none;
+}
